@@ -2,7 +2,7 @@
   "name": "loatharsgotyour",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://loatharsgotyour.github.io/righthere",
+  "homepage": "https://loatharsgotyour.github.io/righthere/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "random-words": "^1.1.0",
