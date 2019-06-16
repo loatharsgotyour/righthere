@@ -1,8 +1,8 @@
 {
-  "name": "loatharsgotyour",
+  "name": "lotharsgotyour",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://loatharsgotyour.github.io/righthere/",
+  "homepage": "https://lotharsgotyour.github.io/righthere/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "random-words": "^1.1.0",
