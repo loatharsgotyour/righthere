@@ -6,7 +6,7 @@ var baseUrl = "https://api.wordnik.com/v4/words.json/randomWord?hasDictionaryDef
 var minCorpusCount = "5000";
 var apiKey = "pmknlvpqzk989cjxoet9jbo243u388ddhwki35k7mu5dyqih8";
 
-class LoatharApp extends React.Component {
+class LotharApp extends React.Component {
     constructor(props) {
         super(props);
         this.state = {text: ''};
@@ -19,7 +19,7 @@ class LoatharApp extends React.Component {
             <div className="main">
                 <div className="app">
                     <div className="text">
-                        <h1> {"Loathar's got your " + this.state.text + "."} </h1>
+                        <h1> {"Lothar's got your " + this.state.text + "."} </h1>
                         <h1> Right here. </h1>
                     </div>
                 <button
@@ -49,6 +49,6 @@ class LoatharApp extends React.Component {
 // ========================================
 
 ReactDOM.render(
-  <LoatharApp />,
+  <LotharApp />,
   document.getElementById('root')
 );
