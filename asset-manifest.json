@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/loatharsgotyour/static/css/main.836e9dbc.chunk.css",
-    "main.js": "/loatharsgotyour/static/js/main.5b45001c.chunk.js",
-    "main.js.map": "/loatharsgotyour/static/js/main.5b45001c.chunk.js.map",
-    "runtime~main.js": "/loatharsgotyour/static/js/runtime~main.1b73f943.js",
-    "runtime~main.js.map": "/loatharsgotyour/static/js/runtime~main.1b73f943.js.map",
-    "static/js/2.5c4e487f.chunk.js": "/loatharsgotyour/static/js/2.5c4e487f.chunk.js",
-    "static/js/2.5c4e487f.chunk.js.map": "/loatharsgotyour/static/js/2.5c4e487f.chunk.js.map",
-    "index.html": "/loatharsgotyour/index.html",
-    "precache-manifest.73085d73880b69e8740ed357e0f65e62.js": "/loatharsgotyour/precache-manifest.73085d73880b69e8740ed357e0f65e62.js",
-    "service-worker.js": "/loatharsgotyour/service-worker.js",
-    "static/css/main.836e9dbc.chunk.css.map": "/loatharsgotyour/static/css/main.836e9dbc.chunk.css.map"
+    "main.css": "/righthere/static/css/main.836e9dbc.chunk.css",
+    "main.js": "/righthere/static/js/main.7d83cec5.chunk.js",
+    "main.js.map": "/righthere/static/js/main.7d83cec5.chunk.js.map",
+    "runtime~main.js": "/righthere/static/js/runtime~main.85ccef25.js",
+    "runtime~main.js.map": "/righthere/static/js/runtime~main.85ccef25.js.map",
+    "static/js/2.5c4e487f.chunk.js": "/righthere/static/js/2.5c4e487f.chunk.js",
+    "static/js/2.5c4e487f.chunk.js.map": "/righthere/static/js/2.5c4e487f.chunk.js.map",
+    "index.html": "/righthere/index.html",
+    "precache-manifest.62cd33cba172131ca34378d92c6a16a3.js": "/righthere/precache-manifest.62cd33cba172131ca34378d92c6a16a3.js",
+    "service-worker.js": "/righthere/service-worker.js",
+    "static/css/main.836e9dbc.chunk.css.map": "/righthere/static/css/main.836e9dbc.chunk.css.map"
   }
 }
