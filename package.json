@@ -1,7 +1,7 @@
 {
   "name": "lotharsgotyour",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://lotharsgotyour.github.io/righthere/",
   "dependencies": {
     "gh-pages": "^2.0.1",
