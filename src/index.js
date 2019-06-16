@@ -32,7 +32,7 @@ class LotharApp extends React.Component {
         )
     }
     updateText() {
-        var url = baseUrl + minCorpusCount + "&api_key=" + apiKey;
+        var url = baseUrl + minCorpusCount + "&minDictionaryCount=3&api_key=" + apiKey;
         fetch(url)
             .then(response => response.json())
             .then((jsonData) => {
