@@ -11,10 +11,10 @@ class LoatharApp extends React.Component {
         super(props);
         this.state = {text: ''};
         this.updateText = this.updateText.bind(this);
+        this.updateText();
     }
 
     render() {
-        this.updateText();
         return (
             <div className="main">
                 <div className="app">
