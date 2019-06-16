@@ -9,11 +9,12 @@ var apiKey = "pmknlvpqzk989cjxoet9jbo243u388ddhwki35k7mu5dyqih8";
 class LoatharApp extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {text: 'test'};
+        this.state = {text: ''};
         this.updateText = this.updateText.bind(this);
     }
 
     render() {
+        this.updateText();
         return (
             <div className="main">
                 <div className="app">
