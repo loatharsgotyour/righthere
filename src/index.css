@@ -1,43 +1,72 @@
+html {
+    height: 100%;
+}
 body {
-  font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
+  font: 36px "ABeeZee", Futura, sans-serif;
+  background-image: linear-gradient(to bottom, rgb(199, 107, 241), rgb(111, 37, 146));
+  background-repeat: no-repeat;
+  background-size: auto;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 10px;
 }
 
-ol, ul {
-  padding-left: 30px;
-}
 
-.square {
-  background: #fff;
-  border: 1px solid #999;
-  float: left;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 34px;
-  height: 34px;
-  margin-right: -1px;
-  margin-top: -1px;
-  padding: 0;
-  text-align: center;
-  width: 100px;
-}
 
-.square:focus {
-  outline: none;
-}
-
-.button {
-    background: #fff;
-    border: 1px solid #999;
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 34px;
-    margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
+div.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
     text-align: center;
-    width: 100px;
-  }
+}
+
+div.app {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 50px;
+}
+
+div.text {
+    background-color: rgb(124, 56, 141);
+    padding: 10px;
+}
+
+div.text h1 {
+    margin: 10px;
+    color: rgb(240, 211, 211);
+    transition: 0.3s;
+}
+
+div.app button {
+  background-color: rgb(75, 101, 218); /* Green */
+  border: none;
+  color: white;
+  margin-top: 20px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  transition: 0.3s;
+}
+
+div.app button:hover {
+    background-color: rgb(32, 61, 187);
+}
+
+#bottomText {
+    position:absolute;
+    text-align: right;
+    bottom: 0;
+    right: 0;
+}
+
+#bottomText p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 5px;
+}
 

@@ -4,7 +4,7 @@ import './index.css';
 
 var baseUrl = "https://api.wordnik.com/v4/words.json/randomWord?hasDictionaryDef=true&includePartOfSpeech=noun&minCorpusCount=";
 var minCorpusCount = "5000";
-var apiKey = "a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5"; //demo key from developer.wordnik.com
+var apiKey = "pmknlvpqzk989cjxoet9jbo243u388ddhwki35k7mu5dyqih8";
 
 class LoatharApp extends React.Component {
     constructor(props) {
@@ -15,14 +15,18 @@ class LoatharApp extends React.Component {
 
     render() {
         return (
-            <div>
-                <h2> {"Loathar's got your " + this.state.text + "."} </h2>
-                <h2> Right here. </h2>
+            <div className="main">
+                <div className="app">
+                    <div className="text">
+                        <h1> {"Loathar's got your " + this.state.text + "."} </h1>
+                        <h1> Right here. </h1>
+                    </div>
                 <button
                     onClick={() => this.updateText()}
                     >
                         {"What else do he got?"}
                     </button>
+                </div>
             </div>
         )
     }
